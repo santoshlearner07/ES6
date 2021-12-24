@@ -16,3 +16,9 @@ function myTag(array, name, role){
     return `${str0}${myName}${str1}${myRole}`
 }
 console.log(myTag`My name is ${myName} and I am ${myRole}`);
+
+
+const urFunc = (name,age) => {
+    return `Hi ${name} , you are ${age} years old`
+}
+console.log(urFunc('Ross',28));
